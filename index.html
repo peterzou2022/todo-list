@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>待办事项</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>待办事项</h1>
+  </header>
+
+  <main>
+    <div class="todo-input">
+      <input id="todo-input" type="text" placeholder="输入待办事项..." aria-label="待办事项">
+      <button id="add-btn" type="button">添加</button>
+    </div>
+
+    <ul id="todo-list" aria-live="polite"></ul>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
